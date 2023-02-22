@@ -1,8 +1,26 @@
-a {
-  color: green;
+/* Element */
+h1 {
+  color: red;
 }
 
-li {
+/* Id */
+#title {
+  font-weight: normal;
+}
+
+/* Class */
+.text {
   font-weight: bold;
-  color: blueviolet;
+}
+
+/* Id and Class */
+#title,
+.text {
+  color: green;
+  font-size: 25px;
+}
+
+/* Element into Element */
+ol li {
+  color: pink;
 }
